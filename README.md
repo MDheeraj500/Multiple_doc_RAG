@@ -41,17 +41,19 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system to ena
    - The generative AI model generates a context-based response.
 
 ## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-  ```
+
+1. **Clone the repository**:
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
+
 2. Create a virtual environment and install dependencies:
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows: venv\Scripts\activate
-  pip install -r requirements.txt
-  ```
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
 3. Add your Google API key in a .env file:
   ```bash
   GOOGLE_API_KEY=<your-google-api-key>
